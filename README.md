@@ -1,5 +1,3 @@
-![PoupApp](thumb.png)
-
 # 💰 PoupApp
 
 O PoupApp é uma plataforma de gerenciamento financeiro voltada para ajudar usuários a organizar suas finanças. Focado na simplicidade, o PoupApp permite que os usuários acompanhem seus gastos, definam metas financeiras e visualizem seu progresso através de gráficos dinâmicos. 
@@ -10,7 +8,7 @@ Com funcionalidades que incentivam o controle de despesas e a organização do o
   <img src="./poupapp-home.png" alt="Página Inicial" width="30%" style="vertical-align: top; margin-right: 20px;" />
 </p>
 
-## 🔨 Funcionalidades do projeto
+## 📝 Sobre o Projeto
 
 O PoupApp oferece as seguintes funcionalidades:
 
@@ -18,7 +16,7 @@ O PoupApp oferece as seguintes funcionalidades:
 - Realizar transações de maneira prática, adicionando despesas e receitas.
 - Analisar seus gastos por meio de gráficos dinâmicos, categorizando as despesas para melhor entendimento.
 
-## ✔️ Técnicas e tecnologias utilizadas
+## 🛠️ Técnicas e tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -33,27 +31,38 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 E outras dependências e ferramentas auxiliares.
 
-## 🛠️ Abrir e rodar o projeto
+## 💻 Como usar
+### ☁️Clonar o repositório:
+1. Para usar a aplicação, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/Luz-e-Cena.git;
 
-Para rodar o projeto em sua máquina local, siga estes passos:
+### ⬇️Fazendo o download do repositório:
+1. Clique no botão "Code" neste repositório e faça o download;
+2. Salve o arquivo ZIP em seu computador e descompacte-o;
+3. Abra a pasta descompactada no VS Code. Para isso, siga os passos abaixo:
 
-1. Baixe o repositório do projeto para o seu computador.
+> - **File > Open Folder** (ou uma opção similar).
+> - Procure o local onde o projeto foi salvo e selecione a pasta (se o projeto foi baixado como um arquivo ZIP, será necessário extraí-lo antes).
+> - Clique em **OK**.
 
-2. Navegue até a pasta do projeto, extraia os arquivos e abra no seu editor de código favorito. 
+## ▶️ Executar o projeto
+Para rodar o projeto, será necessário executar os seguintes comandos:
 
-3. Instale as dependências executando:
+1. Instalação das Dependências:
+Primeiro, você precisa instalar todas as dependências do projeto. Abra o terminal na pasta raiz do projeto e execute:
+> ```npm install```
 
-    ```bash
-    npm install
-    ```
+2. Executar o Backend (JSON Server):
+O projeto utiliza o json-server para simular uma API REST. Se você ainda não o tem instalado, execute o comando abaixo:
+> ```npm install json-server```
 
-4. Para iniciar o servidor de desenvolvimento, utilize o comando:
+Em seguida, inicie o servidor na porta 3001 para que o front-end possa se conectar. Mantenha este terminal aberto enquanto estiver usando a aplicação.
+> ```npm run server```
 
-    ```bash
-    npm run dev
-    ```
+3. Executar o Frontend (React com Vite)
+Abra um novo terminal na pasta raiz do projeto. Agora, inicie a aplicação React:
+> ```npm run dev```
 
-5. O projeto estará disponível em http://localhost:5173.
+A aplicação será iniciada e você poderá acessá-la em seu navegador através do endereço http://localhost:5173 (ou a porta que o Vite indicar).
 
 ## 📚 Mais informações do curso
 
