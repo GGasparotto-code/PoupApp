@@ -33,7 +33,7 @@ E outras dependências e ferramentas auxiliares.
 
 ## 💻 Como usar
 ### ☁️Clonar o repositório:
-1. Para usar a aplicação, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/Luz-e-Cena.git;
+1. Para usar a aplicação, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/PoupApp.git;
 
 ### ⬇️Fazendo o download do repositório:
 1. Clique no botão "Code" neste repositório e faça o download;
@@ -55,7 +55,7 @@ Primeiro, você precisa instalar todas as dependências do projeto. Abra o termi
 O projeto utiliza o json-server para simular uma API REST. Se você ainda não o tem instalado, execute o comando abaixo:
 > ```npm install json-server```
 
-Em seguida, inicie o servidor na porta 3001 para que o front-end possa se conectar. Mantenha este terminal aberto enquanto estiver usando a aplicação.
+Em seguida, inicie o servidor para que o front-end possa se conectar. Mantenha este terminal aberto enquanto estiver usando a aplicação.
 > ```npm run server```
 
 3. Executar o Frontend (React com Vite)
